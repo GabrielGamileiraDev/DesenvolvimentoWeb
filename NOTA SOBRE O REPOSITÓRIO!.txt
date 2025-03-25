@@ -1,0 +1,5 @@
+NOTA SOBRE O REPOSITÓRIO!
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Alguns exercícios provavelmente não irão existir, fique tranquilo.
+Fiz propositalmente pois alguns vídeos do curso 'Desenvolvimento Web' do 'Curso em Vídeo' são somente algumas observações para aprender algo há mais.
+
