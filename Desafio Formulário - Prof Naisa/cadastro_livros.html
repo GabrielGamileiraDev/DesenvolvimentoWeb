@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Nome: Francisco Gabriel Sousa Gamileira -->
+    <!-- Número: 15 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Livros</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="shortcut icon" href="Books_icon-icons.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="Cabeçalho">
+        <header>
+            <h1>
+                <div id="Logo"><img src="logo-removebg-preview.png" alt="Logo da Francisca Neilyta Carneiro Albuquerque"></div>
+                Biblioteca da FNCA📚</h1>
+        </header>
+    </div>
+    <div id="Formulário">
+        <section>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Cadastro de Livros📚</legend>
+                        <label>📖Digite o nome do livro: </label>
+                            <input type="text" placeholder="📖Digite o nome do livro" required>
+                        <br><br>
+                        <label>✍️Digite o nome do autor pertencente ao livro: </label>
+                            <input type="text" placeholder="✍️Digite o nome do autor" required>
+                        <br><br>
+                        <label>🏷️Qual o gênero do seu livro: </label>
+                            <select name="Genero" required>
+                                <option value="Romance💞">Romance💞</option>
+                                <option value="Técnico💻">Técnico💻</option>
+                                <option value="Ficção Científica🔬">Ficção Científica🔬</option>
+                                <option value="Terror😱">Terror😱</option>
+                                <option value="Ação e Aventura⚔️">Ação e Aventura⚔️</option>
+                            </select>
+                        <br><br>
+                        <label>🗓️Ano de publicação: </label>
+                            <input type="date" name="Data do livro🗓️" max="2025-04-14" required>
+                        <br><br>
+                        <label>🔢ISBN: </label>
+                            <input type="number" name="Código do Livro🔢" placeholder="Código do Livro🔢" minlength="10" maxlength="13" required>
+                        <br><br>
+                        <label>📖Descreva uma breve descrição do livro: </label>
+                            <br>
+                            <textarea name="Descrição do livro📚" id="" rows="7" cols="45" placeholder="Descreva seu livro aqui!✍️" required></textarea>
+                        <br>
+                </fieldset>
+                <br>
+                <input type="submit" value="Cadastrar Livro📓">
+            </form>
+        </section>
+    </div>
+    <br>
+    <div id="Rodapé">
+        <footer>©Todos direitos reservados à Francisca Neilyta Carneiro Albuquerque</footer>
+    </div>
+</body>
+</html>

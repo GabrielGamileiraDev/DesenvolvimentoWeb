@@ -1,0 +1,38 @@
+#Cabeçalho{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lawngreen;
+    text-align: center;
+}
+
+#Rodapé{
+    background-color: rgb(110, 238, 234);
+    height: 40px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Logo{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+body{
+    background-color: rgb(245, 248, 255);
+}
+
+fieldset{
+    border-radius: 10px;
+}
+
+textarea{
+    background-color: rgb(209, 228, 243);
+    border-radius: 7px;
+}
+
+input{
+    background-color: rgb(209, 228, 243);
+}
+
+select{
+    background-color: rgb(209, 228, 243);
+}
